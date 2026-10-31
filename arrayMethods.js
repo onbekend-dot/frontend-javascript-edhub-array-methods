@@ -20,9 +20,19 @@ const inventors = [
 // [{ first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 }, { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 }]
 
 
+    inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
+    .forEach(inventor => {
+    console.log(`${inventor.first} ${inventor.last}, ${inventor.year},  ${inventor.passed}`);
+
+});
+
+
+
 
 // 2. Maak een array met daarin alle geboortejaren van de uitvinders
 // Verwachte uitkomst: [1879, 1643, 1564, 1867, 1571, 1473, 1858, 1898, 1815, 1855, 1878, 1847];
+
+
 
 
 
